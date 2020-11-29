@@ -4,7 +4,7 @@
 #
 
 my_packages = c("shiny", "shinyMobile","tidyverse","randomForest","caret",
-                "PRROC", "sf")
+                "PRROC")
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {
@@ -20,7 +20,6 @@ library(dplyr)
 library(randomForest)
 library(caret)
 library(PRROC)
-library(sf)
 
 inc = readRDS("inc.RDS")
 model_uf = readRDS("model_UF_slim.RDS")
