@@ -1,5 +1,5 @@
 library(shiny)
-library(shinyMobile)
+#library(shinyMobile)
 
 inc = readRDS("inc.RDS")
 model_uf = readRDS("model_UF_slim.RDS")
